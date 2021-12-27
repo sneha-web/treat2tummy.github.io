@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!------------------------------Navigation bar-------------------------------->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"  href="#">Treat2tummy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="cities.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cities
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="mumbai/mumbai.php">Mumbai</a>
+          <a class="dropdown-item" href="delhi/delhi.php">Delhi</a>
+          <a class="dropdown-item" href="bangalore/bangalore.php">Bangalore</a>
+          <a class="dropdown-item" href="kolkata/kolkata.php">Kolkata</a>
+          <a class="dropdown-item" href="bihar/bihar.php">Bihar</a>
+          <a class="dropdown-item" href="hyderabad/hyderabad.php">Hyderabad</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Sneha Mishra, Food Blogger</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+<!------------------------About us------------------------------------>
+<section class="my-5">
+  <div class="py-3">
+    <h2 class="text-center">About Us</h2>
+
+  </div>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <a href="about.php">
+      <img src="images/food-blog.jpg" alt="food-blogger" class="img-fluid aboutimg"></a>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-12">
+     <h2 class="display-5">I Am Sneha Mishra</h2>
+     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, autem asperiores! In hic, veniam asperiores, totam voluptatibus dolores beatae quam suscipit aut sequi modi nobis aliquam aperiam atque facere excepturi, provident cum deserunt ea iste! Illo aperiam nihil quas sequi tempora commodi vel sint, fugiat tempore soluta in, omnis quaerat.</p>
+     
+    </div>
+  </div>
+</div>
+</section>
+
+<!------------------------ footer ----------------------->
+<footer>
+  
+  <div class="icons p-3 bg-dark text-white text-center">
+        <p >@treat2tummy</p>
+            <a href="https://facebook.com"><i class="fa fa-facebook"></i> </a>
+            <a href="https://twitter.com"> <i class="fa fa-twitter"></i>  </a>
+            <a href="https://instagram.com"><i class="fa fa-instagram"></i>  </a>
+            <a href="https://linkedin.com"><i class="fa fa-linkedin"></i>  </a>
+        </div>
+</footer>
+
+</body>
+</html>
